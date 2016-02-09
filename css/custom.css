@@ -28,6 +28,11 @@ img{width: 100%;}
    line-height: 2;
 }
 
+my-footer{
+   font-size: 8px;
+   line-height: 1;
+}
+
  .col-sm-height {
     display: table-cell;
     float: none;
@@ -35,8 +40,8 @@ img{width: 100%;}
  }
  
  .project-img {
-    max-height: 250;
-    max-width: 250;
+    max-height: 180px;
+    max-width: 180px;
     
 }
 	
