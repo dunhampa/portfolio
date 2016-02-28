@@ -61,3 +61,36 @@ my-footer{
   .text-right {text-align:left;}
   .text-center-responsive {text-align:center;}
 }
+
+.hi {
+    width: 180px;
+    height: 180px;
+    background-image: url("BiggerSpiriteSmall.png");
+    
+    -webkit-animation: play  4s steps(2) infinite;
+       -moz-animation: play  4s steps(2) infinite;
+        -ms-animation: play  4s steps(2) infinite;
+         -o-animation: play  4s steps(2) infinite;
+            animation: play  4s steps(2) infinite;
+}
+
+@-webkit-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -360px; }
+}
+
+@-moz-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -360px; }
+}
+
+
+@-o-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -360px; }
+}
+
+@keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -360px; }
+}
